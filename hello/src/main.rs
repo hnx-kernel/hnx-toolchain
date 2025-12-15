@@ -15,7 +15,7 @@ pub extern "C" fn _start() -> ! {
             static MSG: [u8; 16];
         }
         core::arch::asm!(
-            "adrp x1, {msg}\n add x1, x1, :lo12:{msg}\n mov x2, #16\n mov x0, #1\n svc #1\n mov x0, #0\n svc #2",
+            "adrp x1, {msg}\n add x1, x1, :lo12:{msg}\n mov x2, #15\n mov x0, #1\n svc #1\n mov x0, #0\n svc #2",
             msg = sym MSG,
             options(noreturn)
         );
