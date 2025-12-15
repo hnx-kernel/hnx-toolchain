@@ -1,0 +1,11 @@
+[package]
+name = "ohlink-nm"
+version = "0.1.0"
+description = "List symbols from Ohlink files"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+ohlink-format = { path = "../ohlink-format" }
+

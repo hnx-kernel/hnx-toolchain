@@ -1,0 +1,11 @@
+[package]
+name = "ohlink-ld"
+version = "0.1.0"
+description = "Link Ohlink object files into executables"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+ohlink-format = { path = "../ohlink-format" }
+object = "0.32"

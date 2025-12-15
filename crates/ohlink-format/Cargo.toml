@@ -1,0 +1,14 @@
+[package]
+name = "ohlink-format"
+version = "0.1.0"
+description = "Ohlink binary format definition and parser"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+thiserror = { workspace = true }
+log = { workspace = true }
+bytemuck = "1.0"   # 用于安全类型转换
+
+[dev-dependencies]
+ohlink-format = { path = "." }

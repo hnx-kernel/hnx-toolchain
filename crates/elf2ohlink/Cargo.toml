@@ -1,0 +1,11 @@
+[package]
+name = "elf2ohlink"
+version = "0.1.0"
+description = "Convert ELF object files to Ohlink format"
+edition = "2021"
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+ohlink-format = { path = "../ohlink-format" }
+object = "0.32"  # 用于解析 ELF 文件

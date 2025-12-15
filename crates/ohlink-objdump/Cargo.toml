@@ -1,0 +1,13 @@
+[package]
+name    = "ohlink-objdump"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ohlink-format = { path = "../ohlink-format" }
+anyhow        = "1"
+clap          = { version = "4", features = ["derive"] }
+
+[[bin]]
+name = "oh-readohl"
+path = "src/main.rs"

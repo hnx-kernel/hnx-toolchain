@@ -1,0 +1,5 @@
+[v1]
+"elf2ohlink 0.1.0 (path+file:///Users/admin/Desktop/personal/code/hnx-toolchain/crates/elf2ohlink)" = ["elf2ohlink"]
+"ohlink-ar 0.1.0 (path+file:///Users/admin/Desktop/personal/code/hnx-toolchain/crates/ohlink-ar)" = ["ohlink-ar"]
+"ohlink-ld 0.1.0 (path+file:///Users/admin/Desktop/personal/code/hnx-toolchain/crates/ohlink-ld)" = ["ohlink-ld"]
+"ohlink-objdump 0.1.0 (path+file:///Users/admin/Desktop/personal/code/hnx-toolchain/crates/ohlink-objdump)" = ["oh-readohl"]

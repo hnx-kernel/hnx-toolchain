@@ -1,0 +1,16 @@
+[workspace]
+members = [
+    "crates/elf2ohlink",
+    "crates/ohlink-format",
+    "crates/ohlink-ld",
+    "crates/ohlink-nm",
+    "crates/ohlink-objdump",
+    "crates/ohlink-ar", "hello", "kernel",
+]
+resolver = "2"
+
+[workspace.dependencies]
+anyhow = "1.0"
+thiserror = "1.0"
+log = "0.4"
+clap = { version = "4.0", features = ["derive"] }

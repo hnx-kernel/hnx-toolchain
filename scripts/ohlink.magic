@@ -1,0 +1,3 @@
+# Ohlink custom magic definitions for `file` testing
+0	lelong	0x0f112234	Ohlink 64-bit binary
+0	lelong	0x0f112233	Ohlink 32-bit binary
