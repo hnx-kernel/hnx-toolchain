@@ -322,7 +322,7 @@ fn map_relocation_type(reloc: &object::Relocation) -> u32 {
         RelocationKind::PltRelative => RELOC_PLT,
         RelocationKind::Elf(t) => match t {
             elf::R_AARCH64_CALL26 | elf::R_AARCH64_JUMP26 => RELOC_BRANCH26,
-            elf::R_AARCH64_ADR_PREL_PG_HI21 => RELOC_AARCH64_ADR_PREL_PG_HI21,
+            elf::R_AARCH64_ADR_PREL_PG_HI21 | elf::R_AARCH64_ADR_PREL_PG_HI21_NC => RELOC_AARCH64_ADR_PREL_PG_HI21,
             elf::R_AARCH64_ADD_ABS_LO12_NC => RELOC_AARCH64_ADD_ABS_LO12_NC,
             elf::R_AARCH64_LD_PREL_LO19 => RELOC_AARCH64_LD_PREL_LO19,
             _ => RELOC_NONE,
